@@ -1,0 +1,116 @@
+
+img {
+opacity: 0.5;
+width: 100%;
+height: 100%;
+border-radius: 50px;
+
+}
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(13, 13, 117);
+
+}
+ 
+.estilo{
+    font-size: 30px;
+    text-align: center;
+    font-family: tahoma;
+    color: rgb(142, 15, 146);
+    margin-top: 10px;
+           
+}
+.estilo:hover{
+     background-color: rgb(82, 70, 250);
+           
+}
+
+.container{
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        
+        width: 100%;
+        height: 100%;     
+      
+}
+.box{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    border: solid;
+    box-sizing: content-box;
+    align-items: center;
+    margin: 20px;
+    border-radius: 50px;
+    box-shadow: 10px 5px 5px black;
+      
+}
+
+.texto-encima{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+a:hover {
+       
+    background-color: aqua;
+  }
+ .ultimo {
+    color: black;
+    text-align: center;
+
+ } 
+ /*
+ .cuadro{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(8, 8, 110);
+    text-align: left;
+ }*/
+/*Estilos para la Botonera*/
+#botonera{
+    width: 1300px;
+    background-color: rgb(8, 8, 110);
+    margin: auto;
+    text-align: right;
+}
+#botonera li{
+    display: inline-block;
+    list-style: none;
+}
+#botonera a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 20px;
+}
+#botonera a:hover{
+    background-color: gainsboro;
+    color: white;
+}
+
+ a.inicio:hover{
+ background-color: transparent;
+  }
+ a.quienes:hover{
+    background-color: transparent;
+    
+    }
+a.contactanos:hover{
+        background-color: transparent;
+        
+}
+#redes{
+    float: left;
+}
+#redes img{
+    width:30px;
+    margin-right: 15px;
+}

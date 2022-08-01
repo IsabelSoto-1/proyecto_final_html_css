@@ -1,0 +1,14 @@
+a:hover{
+background-color: transparent;
+
+}
+
+img{
+    width: 40px;
+    height: 40px;
+}
+*{
+    color: rgb(36, 36, 109);
+    font-family: 'Times New Roman', Times, serif;
+    
+}

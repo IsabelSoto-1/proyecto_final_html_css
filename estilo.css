@@ -1,0 +1,97 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    width: 80%;
+    height: 80%;
+    display: block;
+    margin: 0px auto;
+   
+}
+
+h1{
+    text-align: center;
+    color: rgb(15, 15, 228);
+        }
+
+ h2{
+    text-align: center;
+    color: solid;
+ }       
+p{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}    
+.container{
+    background: #c6d5ee;
+   
+}
+.contact-form{
+    align-items: center;
+    text-align: center;
+
+}
+.inputBox{
+    align-items: center;
+    text-align: center;
+}
+.p1{
+    text-align: center;
+}
+.button{
+    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
+    padding: 10px; /*espacio alrededor texto*/
+    background-color: #2e518b; /*color botón*/
+    color: #ffffff; /*color texto*/
+    text-decoration: none; /*decoración texto*/
+    text-transform: uppercase; /*capitalización texto*/
+    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+    border-radius: 50px; /*bordes redondos*/
+  
+    }
+    a{
+        color: rgb(228, 41, 41);
+    }
+
+    .slider{
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        
+    }
+      
+    .slider ul{
+        display: flex;
+        padding: 0;
+        width: 320%;   
+        animation: cambio 20s infinite alternate;    
+    }
+
+    .slider li{
+        width: 80%;
+        list-style: none;
+        
+    }
+    .slider img{
+        width: 100%;
+    }
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20% {margin-left: 0;}
+
+    25% {margin-left: -80%;}
+    45% {margin-left: -80%;}
+
+    50% {margin-left: -160%;}
+    70% {margin-left: -160%;}
+
+    75% {margin-left: -240%;}
+    100% {margin-left: -240%;}
+}
+
+.btns{
+	background:#0D5E8B;
+}
