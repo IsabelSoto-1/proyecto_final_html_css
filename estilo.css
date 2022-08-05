@@ -3,13 +3,89 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+
+    background-image: url(img/restaurant.jpg);
+    
+    background-size: cover;
+    background-position: center;
+    
+    
+}
+
+.container{
+    Background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,0.5)), color-stop( 17%, rgba(255,0,255,0.5)), color-stop( 58%, rgba(176,0,176,0.5)), color-stop( 100%, rgba(97,0,97,0.5)));
+}
+
+.contact{
+    color: black;
+}
+.contenedor{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    Background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,0.5)), color-stop( 17%, rgba(255,0,255,0.5)), color-stop( 58%, rgba(176,0,176,0.5)), color-stop( 100%, rgba(97,0,97,0.5)));
+    
+    
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px ;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgb(0, 0, 0, 0.8) 0px 0px 50px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.2);
+    
+}
+
+input:focus, textarea:focus{
+    border-bottom-color:#610061;
+
+}
+
+button{
+    border: none;
+    outline: none;
+    Background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,1)), color-stop( 17%, rgba(255,0,255,1)), color-stop( 58%, rgba(176,0,176,1)), color-stop( 100%, rgba(97,0,97,1)));
+    padding: 15px;
+    width: 200px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0, 0, 0, 0.7) 0px 0px 10px ;
+    cursor: pointer;
+    transition: all 300ms;
+}
+button:hover{
+    transform: scale(1.2);
+    box-shadow: rgba(0, 0, 0, 0.9) 0px 0px 10px;
 }
 img{
     width: 80%;
     height: 80%;
     display: block;
     margin: 0px auto;
-   
+     
 }
 
 h1{
@@ -25,33 +101,11 @@ p{
     font-size: medium;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }    
-.container{
-    background: #c6d5ee;
-   
-}
-.contact-form{
-    align-items: center;
-    text-align: center;
 
-}
-.inputBox{
-    align-items: center;
-    text-align: center;
-}
 .p1{
     text-align: center;
 }
-.button{
-    border: 1px solid #2e518b; /*anchura, estilo y color borde*/
-    padding: 10px; /*espacio alrededor texto*/
-    background-color: #2e518b; /*color botón*/
-    color: #ffffff; /*color texto*/
-    text-decoration: none; /*decoración texto*/
-    text-transform: uppercase; /*capitalización texto*/
-    font-family: 'Helvetica', sans-serif; /*tipografía texto*/
-    border-radius: 50px; /*bordes redondos*/
-  
-    }
+
     a{
         color: rgb(228, 41, 41);
     }

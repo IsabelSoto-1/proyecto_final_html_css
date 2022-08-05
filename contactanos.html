@@ -8,44 +8,17 @@
   <title>Contactanos</title>
 </head>
 <body>
-  <main class="container">
-    <h1>Contactanos</h1>
-    <form class="contact-form">
-      <div class="inputBox">
-        <label for="nombre">Nombre:</label>
-        <input class="" type="text" name="nombre" id="nombre" required>
-      </div>
-      <div>
-        <div class="inputBox">
-            <br>
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="Apellido" id="apellido">
-      </div>
-    </div>
-    <div class="inputBox">
-        <br>
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email" required >
-    </div>
-    
-    <p class="p1">Escoge una opcion:</p>
-    <div class="inputBox">
-      <input type="radio" id="polleria" name="nuevonombre" value="polleria">
-      <label for="html">POLLERIA</label>
-      <input type="radio" id="CHIFA" name="nuevonombre" value="CHIFA">
-      <label for="css">CHIFA</label>
-      <input type="radio" id="cevicheria y marisqueria" name="nuevonombre" value="cevicheria y marisqueria">
-      <label for="javascript">CEVICHERIA Y MARISQUERIA</label>
-    </div>
-
-    <p class="p1">Escribenos alguna sugerencia:</p>
-    <div class="inputBox">
-      <textarea id="w3review" name="w3review"></textarea>
-      </div>
-      <br>
-      <button type="submit" class="button">Enviar</button>
-    </form>
-  </main>
+  <div class="contenedor">
+     <form>
+       <h1 class="contact">Contactanos</h1> 
+       <hr>
+         
+       <input type="text" id="nombre" placeholder="Nombre"> 
+       <input type="text" id="correo" placeholder="Correo">  
+       <textarea placeholder="Mensaje"></textarea>
+       <button>Enviar mensaje</button>
+     </form>
+    </div>   
 </body>
 
 </html>
